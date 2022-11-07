@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="100dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom ="10dp"
+        android:gravity="center"
+        android:text="@string/memo"
+        android:textSize="25sp"
+        android:textColor="@color/teal_200" />
+
+<TableRow
+    android:background="@color/teal_200"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/table_header1"
+        android:textSize="20sp"
+        android:textColor="@color/white" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/table_header2"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+
+</TableRow>
+
+    <TableRow
+        android:background="@color/white"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/course1"
+            android:textSize="20sp"
+            android:textColor="@color/teal_200" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/date1"
+            android:textSize="20sp"
+            android:textColor="@color/teal_200"/>
+
+    </TableRow>
+    <TableRow
+        android:background="@color/white"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/course2"
+            android:textSize="20sp"
+            android:textColor="@color/teal_200" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/date2"
+            android:textSize="20sp"
+            android:textColor="@color/teal_200"/>
+
+    </TableRow>
+    <TableRow
+        android:background="@color/white"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/course3"
+            android:textSize="20sp"
+            android:textColor="@color/teal_200" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/date3"
+            android:textSize="20sp"
+            android:textColor="@color/teal_200"/>
+
+    </TableRow>
+    <TableRow
+        android:background="@color/white"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/course4"
+            android:textSize="20sp"
+            android:textColor="@color/teal_200" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/date4"
+            android:textSize="20sp"
+            android:textColor="@color/teal_200"/>
+
+    </TableRow>
+    <TableRow
+        android:background="@color/white"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/course5"
+            android:textSize="20sp"
+            android:textColor="@color/teal_200" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/date5"
+            android:textSize="20sp"
+            android:textColor="@color/teal_200"/>
+
+    </TableRow>
+    <TableRow
+        android:background="@color/white"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/course6"
+            android:textSize="20sp"
+            android:textColor="@color/teal_200" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/date6"
+            android:textSize="20sp"
+            android:textColor="@color/teal_200"/>
+
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/faculty"
+            android:title="@string/Faculty"
+            android:icon="@drawable/ic_faculty_foreground"/>
+
+        <item
+            android:id="@+id/courses"
+            android:title="@string/Courses"
+            android:icon="@drawable/ic_courses_foreground"/>
+
+        <item
+            android:id="@+id/timeTable"
+            android:title="@string/Timetable"
+            android:icon="@drawable/ic_timetable_foreground"/>
+        <item
+            android:id="@+id/admissions"
+            android:title="@string/Admissions"
+            android:icon="@drawable/ic_admissions_foreground"/>
+
+    </group>
+
+</menu>

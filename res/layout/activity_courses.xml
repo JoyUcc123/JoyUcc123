@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".Courses">
+
+    <TextView
+        android:id="@+id/memo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom ="10dp"
+        android:gravity="center"
+        android:text="@string/memo3"
+        android:textSize="25sp"
+        android:textColor="@color/teal_200" />
+
+    <TextView
+        android:id="@+id/coursed1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom ="10dp"
+        android:gravity="center"
+        android:text="@string/coursed1"
+        android:textSize="15sp"
+        android:textColor="@color/teal_200"
+        android:layout_below="@+id/memo3" />
+
+    <TextView
+        android:id="@+id/coursed2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom ="10dp"
+        android:gravity="center"
+        android:text="@string/coursed2"
+        android:textSize="15sp"
+        android:textColor="@color/teal_200"
+        android:layout_below="@+id/coursed1" />
+
+    <TextView
+        android:id="@+id/coursed3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom ="10dp"
+        android:gravity="center"
+        android:text="@string/coursed3"
+        android:textSize="15sp"
+        android:textColor="@color/teal_200"
+        android:layout_below="@+id/coursed2" />
+
+    <TextView
+        android:id="@+id/coursed4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom ="10dp"
+        android:gravity="center"
+        android:text="@string/coursed4"
+        android:textSize="15sp"
+        android:textColor="@color/teal_200"
+        android:layout_below="@+id/coursed3" />
+
+    <TextView
+        android:id="@+id/coursed5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom ="10dp"
+        android:gravity="center"
+        android:text="@string/coursed5"
+        android:textSize="15sp"
+        android:textColor="@color/teal_200"
+        android:layout_below="@+id/coursed4" />
+
+    <TextView
+        android:id="@+id/coursed6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom ="10dp"
+        android:gravity="center"
+        android:text="@string/coursed6"
+        android:textSize="15sp"
+        android:textColor="@color/teal_200"
+        android:layout_below="@+id/coursed5" />
+
+    <TextView
+        android:id="@+id/coursed7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom ="10dp"
+        android:gravity="center"
+        android:text="@string/coursed7"
+        android:textSize="15sp"
+        android:textColor="@color/teal_200"
+        android:layout_below="@+id/coursed6" />
+
+    <TextView
+        android:id="@+id/coursed8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom ="10dp"
+        android:gravity="center"
+        android:text="@string/coursed8"
+        android:textSize="15sp"
+        android:textColor="@color/teal_200"
+        android:layout_below="@+id/coursed7" />
+
+    <TextView
+        android:id="@+id/coursed9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom ="10dp"
+        android:gravity="center"
+        android:text="@string/coursed9"
+        android:textSize="15sp"
+        android:textColor="@color/teal_200"
+        android:layout_below="@+id/coursed8" />
+
+    <TextView
+        android:id="@+id/coursed10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom ="10dp"
+        android:gravity="center"
+        android:text="@string/coursed10"
+        android:textSize="15sp"
+        android:textColor="@color/teal_200"
+        android:layout_below="@+id/coursed9" />
+
+
+</RelativeLayout>
